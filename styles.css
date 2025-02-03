@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2E7D32; /* เขียวเข้ม */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+select, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #1B5E20;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #388E3C;
+}
+
+.info-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1B5E20;
+    border-radius: 10px;
+    display: none;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 5px;
+}
