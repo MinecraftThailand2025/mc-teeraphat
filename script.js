@@ -25,14 +25,14 @@ function showLandInfo() {
             const city = data.find(c => c.id === selectedCity);
             
             if (city) {
-                let tax = (city.area / smallestArea) * taxRate; // คำนวณภาษี
+                let tax = Math.ceil((city.area / smallestArea) * taxRate); // คำนวณภาษี และปัดขึ้นเสมอ
 
                 document.getElementById("landInfo").innerHTML = `
                     <h2>${city.name}</h2>
                     <p><strong>ที่อยู่:</strong> ${city.location}</p>
                     <p><strong>พื้นที่:</strong> ${city.area.toLocaleString()} ตารางบล็อก</p>
                     <p><strong>เจ้าของ:</strong> ${city.owner}</p>
-                    <p><strong>ภาษีที่ต้องจ่าย:</strong> ${tax.toFixed(2)} 💎</p>
+                    <p><strong>ภาษีที่ต้องจ่าย:</strong> ${tax} 💎</p>
                     <img src="${city.image}" alt="รูปภาพเมือง">
                 `;
                 document.getElementById("landInfo").style.display = "block";
