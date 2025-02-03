@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>กรมที่ดิน Minecraft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>กรมที่ดิน Minecraft</h1>
+        <label for="citySelect">เลือกอาณาจักรหรือเมืองของคุณ:</label>
+        <select id="citySelect">
+            <option value="">-- กรุณาเลือก --</option>
+        </select>
+        <button onclick="showLandInfo()">ดูข้อมูลที่ดิน</button>
+    </div>
+
+    <div id="landInfo" class="info-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
