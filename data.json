@@ -1,25 +1,25 @@
 [
     {
         "id": "1",
-        "name": "เมือง A (เมืองหลวง)",
+        "name": "เมืองศิรานคร (เมืองหลวง)",
         "location": "X: 100, Y: 64, Z: -100",
-        "area": 100000,
-        "owner": "King Steve",
+        "area": 178200,
+        "owner": "Naphat2550",
         "image": "images/capital.jpg"
     },
     {
         "id": "2",
-        "name": "เมือง B",
+        "name": "เมืองคิดชื่อออกเดี๋ยวบอกเอง",
         "location": "X: -200, Y: 70, Z: 300",
-        "area": 200000,
-        "owner": "Alex the Builder",
+        "area": 408312,
+        "owner": "Teeraphat_CH ,Wavfall9",
         "image": "images/village.jpg"
     },
     {
         "id": "3",
-        "name": "เมือง C",
+        "name": "เมืองนครไชยศรี",
         "location": "X: 500, Y: 75, Z: -500",
-        "area": 900000,
+        "area": 913292,
         "owner": "Diamond King",
         "image": "images/kingdom.jpg"
     }
