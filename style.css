@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #ffae00;
+}
+
+.server-ip {
+    background: #d9534f;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.server-ip span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 50px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.discord { background: #7289DA; }
+.store { background: #FFD700; }
+.rules { background: #4CAF50; }
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+footer {
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    font-size: 14px;
+}
